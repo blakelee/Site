@@ -1,5 +1,6 @@
 site:
   title: "Site"
+  routePrefix: "site"
 
 server:
   files:
@@ -8,6 +9,6 @@ server:
       script: "build/js/packages/site/kotlin/site.js"
       api: "build/libs/site.jar"
     prod:
-      siteRoot: ".kobweb/site"
+      siteRoot: "docs"
 
   port: 8080
