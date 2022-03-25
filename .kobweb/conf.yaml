@@ -1,6 +1,5 @@
 site:
   title: "Site"
-  routePrefix: "site"
 
 server:
   files:
