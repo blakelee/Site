@@ -50206,15 +50206,15 @@
     if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       var tmp0_subject = NavHeader$composable$lambda(this._$colorMode$delegate);
       if (tmp0_subject.equals(ColorMode_LIGHT_getInstance())) {
-        $composer_0.startReplaceableGroup_majfzk_k$(548061887);
+        $composer_0.startReplaceableGroup_majfzk_k$(548061945);
         FaMoon$composable(null, null, $composer_0, 0, 3);
         $composer_0.endReplaceableGroup_sv8swh_k$();
       } else if (tmp0_subject.equals(ColorMode_DARK_getInstance())) {
-        $composer_0.startReplaceableGroup_majfzk_k$(548061938);
+        $composer_0.startReplaceableGroup_majfzk_k$(548061996);
         FaSun$composable(null, null, $composer_0, 0, 3);
         $composer_0.endReplaceableGroup_sv8swh_k$();
       } else {
-        $composer_0.startReplaceableGroup_majfzk_k$(548061967);
+        $composer_0.startReplaceableGroup_majfzk_k$(548062025);
         $composer_0.endReplaceableGroup_sv8swh_k$();
       }
     } else
@@ -50251,7 +50251,7 @@
     if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       var tmp = margin_2(Companion_getInstance_38(), _get_px_(8));
       var tmp_0 = $composer_0;
-      Box$composable(tmp, null, null, composableLambda(tmp_0, -819892389, true, _no_name_provided_$factory_387(this._$colorMode$delegate_1)), $composer_0, 3072, 6);
+      Box$composable(tmp, null, null, composableLambda(tmp_0, -819893119, true, _no_name_provided_$factory_387(this._$colorMode$delegate_1)), $composer_0, 3072, 6);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
@@ -50289,6 +50289,7 @@
       NavLink$composable('/about', 'ABOUT', $composer_0, 54);
       NavLink$composable('/markdown', 'MARKDOWN', $composer_0, 54);
       NavLink$composable('/composesample', 'COMPOSE SAMPLE', $composer_0, 54);
+      NavLink$composable('/composesample', 'COMPOSE SAMPLE 2', $composer_0, 54);
       Spacer$composable($composer_0, 0);
       var tmp$ret$3;
       $l$block_2: {
@@ -50334,7 +50335,7 @@
       var tmp_1 = tmp$ret$3;
       var tmp_2 = toModifier$composable(NavItemStyle, NavButtonVariant, $composer_0, 72, 0);
       var tmp_3 = $composer_0;
-      Button$composable(tmp_1, tmp_2, null, null, composableLambda(tmp_3, -819892442, true, _no_name_provided_$factory_385(this._$colorMode$delegate_3)), $composer_0, 24576, 12);
+      Button$composable(tmp_1, tmp_2, null, null, composableLambda(tmp_3, -819892372, true, _no_name_provided_$factory_385(this._$colorMode$delegate_3)), $composer_0, 24576, 12);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
