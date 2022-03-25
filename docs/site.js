@@ -48736,7 +48736,7 @@
     };
   }
   function main() {
-    Companion_getInstance_45().set_a4enbm_k$('/site/');
+    Companion_getInstance_45().set_a4enbm_k$('');
     var router = new Router();
     router.register$composable$default_cmjbsq_k$('/', false, ComposableSingletons$MainKt_getInstance()._lambda_1_3, 2, null);
     router.register$composable$default_cmjbsq_k$('/about', false, ComposableSingletons$MainKt_getInstance()._lambda_2_0, 2, null);
@@ -48750,7 +48750,7 @@
       root.removeChild(ensureNotNull(root.firstChild));
       Unit_getInstance();
     }
-    renderComposable$composable('root', composableLambdaInstance(-985532511, true, _no_name_provided_$factory_339(router)));
+    renderComposable$composable('root', composableLambdaInstance(-985532513, true, _no_name_provided_$factory_339(router)));
     Unit_getInstance();
   }
   function _no_name_provided__378() {
@@ -48828,13 +48828,13 @@
   function ComposableSingletons$MainKt() {
     ComposableSingletons$MainKt_instance = this;
     var tmp = this;
-    tmp._lambda_1_3 = composableLambdaInstance(-985534220, false, _no_name_provided_$factory_340());
+    tmp._lambda_1_3 = composableLambdaInstance(-985534222, false, _no_name_provided_$factory_340());
     var tmp_0 = this;
-    tmp_0._lambda_2_0 = composableLambdaInstance(-985534273, false, _no_name_provided_$factory_341());
+    tmp_0._lambda_2_0 = composableLambdaInstance(-985534283, false, _no_name_provided_$factory_341());
     var tmp_1 = this;
-    tmp_1._lambda_3 = composableLambdaInstance(-985533687, false, _no_name_provided_$factory_342());
+    tmp_1._lambda_3 = composableLambdaInstance(-985533689, false, _no_name_provided_$factory_342());
     var tmp_2 = this;
-    tmp_2._lambda_4 = composableLambdaInstance(-985533484, false, _no_name_provided_$factory_343());
+    tmp_2._lambda_4 = composableLambdaInstance(-985533486, false, _no_name_provided_$factory_343());
   }
   ComposableSingletons$MainKt.$metadata$ = {
     simpleName: 'ComposableSingletons$MainKt',
@@ -48890,7 +48890,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 11 ^ 2) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       var tmp = $composer_0;
-      MyApp$composable(composableLambda(tmp, -819895869, true, _no_name_provided_$factory_345(this._$router_0)), $composer_0, 6);
+      MyApp$composable(composableLambda(tmp, -819895863, true, _no_name_provided_$factory_345(this._$router_0)), $composer_0, 6);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
@@ -48916,7 +48916,7 @@
       }
       var tmp = [AppGlobalsLocal.provides_2c5_k$(tmp$ret$0)];
       var tmp_0 = $composer_0;
-      CompositionLocalProvider$composable(tmp, composableLambda(tmp_0, -819895895, true, _no_name_provided_$factory_344(this._$router_1)), $composer_0, 48);
+      CompositionLocalProvider$composable(tmp, composableLambda(tmp_0, -819895889, true, _no_name_provided_$factory_344(this._$router_1)), $composer_0, 48);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
